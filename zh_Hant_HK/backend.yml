@@ -285,9 +285,7 @@ zh-HK:
       reported_by: 舉報者
       resolved: 已處理
       resolved_msg: 舉報已處理。
-      silence_account: 將用戶靜音
       status: 狀態
-      suspend_account: 將用戶停權
       title: 舉報
       unassign: 取消指派
       unresolved: 未處理
@@ -452,7 +450,7 @@ zh-HK:
     '500':
       content: 抱歉，我們的後台出錯了。
       title: 這個頁面有問題
-    noscript_html: 使用 Mastodon 網頁版應用需要啟用 JavaScript。你也可以選擇適用於你的平台的 <a href="https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/Apps.md">Mastodon 應用</a>。
+    noscript_html: 使用 Mastodon 網頁版應用需要啟用 JavaScript。你也可以選擇適用於你的平台的 <a href="%{apps_path}">Mastodon 應用</a>。
   exports:
     archive_takeout:
       date: 日期
